@@ -25,3 +25,6 @@ pip install requests deep_translator
 * API Key: Replace the placeholder API key (NEWS_API_KEY) in the script with your own NewsAPI key.
   
 * Run the Script: Execute the script, which will fetch today’s news, translate it, and ask if you'd like to open the article in a browser.
+
+**Future Improvements**
+* Translate Article URL: Currently, the script translates the article's title, description, and content. In the future, I plan to extend this feature to also translate the URL of the article itself, based on the user’s desired language. This will provide a fully localized experience for users accessing articles through the browser.
